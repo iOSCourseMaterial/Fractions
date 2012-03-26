@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920C4388152109DF00663222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C4387152109DF00663222 /* UIKit.framework */; };
+		920C438A152109DF00663222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C4389152109DF00663222 /* Foundation.framework */; };
+		920C438C152109DF00663222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C438B152109DF00663222 /* CoreGraphics.framework */; };
+		920C4392152109DF00663222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920C4390152109DF00663222 /* InfoPlist.strings */; };
+		920C4394152109DF00663222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C4393152109DF00663222 /* main.m */; };
+		920C4398152109DF00663222 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C4397152109DF00663222 /* RHAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		920C4383152109DF00663222 /* FunWithFractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithFractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920C4387152109DF00663222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		920C4389152109DF00663222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		920C438B152109DF00663222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		920C438F152109DF00663222 /* FunWithFractions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunWithFractions-Info.plist"; sourceTree = "<group>"; };
+		920C4391152109DF00663222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		920C4393152109DF00663222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920C4395152109DF00663222 /* FunWithFractions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunWithFractions-Prefix.pch"; sourceTree = "<group>"; };
+		920C4396152109DF00663222 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		920C4397152109DF00663222 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920C4380152109DF00663222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C4388152109DF00663222 /* UIKit.framework in Frameworks */,
+				920C438A152109DF00663222 /* Foundation.framework in Frameworks */,
+				920C438C152109DF00663222 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920C4378152109DE00663222 = {
+			isa = PBXGroup;
+			children = (
+				920C438D152109DF00663222 /* FunWithFractions */,
+				920C4386152109DF00663222 /* Frameworks */,
+				920C4384152109DF00663222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920C4384152109DF00663222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920C4383152109DF00663222 /* FunWithFractions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920C4386152109DF00663222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920C4387152109DF00663222 /* UIKit.framework */,
+				920C4389152109DF00663222 /* Foundation.framework */,
+				920C438B152109DF00663222 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920C438D152109DF00663222 /* FunWithFractions */ = {
+			isa = PBXGroup;
+			children = (
+				920C4396152109DF00663222 /* RHAppDelegate.h */,
+				920C4397152109DF00663222 /* RHAppDelegate.m */,
+				920C438E152109DF00663222 /* Supporting Files */,
+			);
+			path = FunWithFractions;
+			sourceTree = "<group>";
+		};
+		920C438E152109DF00663222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920C438F152109DF00663222 /* FunWithFractions-Info.plist */,
+				920C4390152109DF00663222 /* InfoPlist.strings */,
+				920C4393152109DF00663222 /* main.m */,
+				920C4395152109DF00663222 /* FunWithFractions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920C4382152109DF00663222 /* FunWithFractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920C439B152109DF00663222 /* Build configuration list for PBXNativeTarget "FunWithFractions" */;
+			buildPhases = (
+				920C437F152109DF00663222 /* Sources */,
+				920C4380152109DF00663222 /* Frameworks */,
+				920C4381152109DF00663222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunWithFractions;
+			productName = FunWithFractions;
+			productReference = 920C4383152109DF00663222 /* FunWithFractions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920C437A152109DE00663222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
+			};
+			buildConfigurationList = 920C437D152109DE00663222 /* Build configuration list for PBXProject "FunWithFractions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 920C4378152109DE00663222;
+			productRefGroup = 920C4384152109DF00663222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920C4382152109DF00663222 /* FunWithFractions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920C4381152109DF00663222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C4392152109DF00663222 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920C437F152109DF00663222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C4394152109DF00663222 /* main.m in Sources */,
+				920C4398152109DF00663222 /* RHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		920C4390152109DF00663222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920C4391152109DF00663222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920C4399152109DF00663222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		920C439A152109DF00663222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920C439C152109DF00663222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunWithFractions/FunWithFractions-Prefix.pch";
+				INFOPLIST_FILE = "FunWithFractions/FunWithFractions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		920C439D152109DF00663222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunWithFractions/FunWithFractions-Prefix.pch";
+				INFOPLIST_FILE = "FunWithFractions/FunWithFractions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920C437D152109DE00663222 /* Build configuration list for PBXProject "FunWithFractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920C4399152109DF00663222 /* Debug */,
+				920C439A152109DF00663222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920C439B152109DF00663222 /* Build configuration list for PBXNativeTarget "FunWithFractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920C439C152109DF00663222 /* Debug */,
+				920C439D152109DF00663222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920C437A152109DE00663222 /* Project object */;
+}
